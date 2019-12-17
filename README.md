@@ -5,7 +5,25 @@ Feeds is an Android library that allows developers to easily fetch JSON Array fr
 Check MainActivity in app folder for usage.
 
 
+# Setup
 
+Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+
+On your module's build.gradle file add this implementation statement to the dependencies section:
+```
+dependencies {
+	        implementation 'com.github.thundurous:Feeds:0.10'
+	}
+```
 
 
 
