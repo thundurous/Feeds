@@ -1,4 +1,4 @@
-FEEDS
+# FEEDS
 
 Feeds is an Android library that allows developers to easily fetch JSON Array from URLs using RETROFIT2, GSON, display results in a Recycler View using custom view, display images using GLIDE and store data locally using ROOM database.
 
@@ -9,7 +9,8 @@ Check MainActivity in app folder for usage.
 
 
 
-License
+# **License**
+
 Copyright 2019 thundurous
 
 Licensed under the Apache License, Version 2.0 (the "License");
